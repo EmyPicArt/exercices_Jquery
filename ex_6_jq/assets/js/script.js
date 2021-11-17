@@ -1,11 +1,15 @@
 // vérifier le chargement du Dom avec cette fonction :
 $(function(){
 
-$("#img1").hover(
-    function
-).css("width", 200 +"px");
+    // 1ere methode 2 événements pour retouver la taille initiale
+// $("#img1").on ({
+//     mouseenter: function(){$(this).width(500);},
+//     mouseleave: function () {$(this).width(200);},
+// })
+// });
 
+// 2eme methode au survol :créer un événement hover et une fonction ,cibler l'img et agrandir sa largeur .width
+$("#img1").hover(function(){
+    $("#img1").width(500)});
 
-
-    
-});
+})
