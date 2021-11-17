@@ -2,8 +2,10 @@
 $(function(){
 
 
-
-
-
-    
+$("#button").on ({
+    mouseenter: function(){$("#text").css("color","blue");},
+    mouseleave: function () {$("#text").css("color","black");},
+})
 });
+
+
