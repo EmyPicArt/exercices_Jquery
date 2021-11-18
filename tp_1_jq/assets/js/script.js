@@ -19,8 +19,9 @@ $('#buttonSubmit').click(function(){
     }
 });
 // $("#getNumber").click(function(){
-//     var random = (max, min) => {
-//     return Math.floor(Math.random() * max - min + 1) + min;
+//     var randomNumber = Math.floor(Math.random() * 100) + 1;
+var submit = $("#buttonSubmit").val();
+var number
 // }
 //  $("#random")(100,1);
 //  console.log(random)
