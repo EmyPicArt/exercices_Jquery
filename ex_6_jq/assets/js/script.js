@@ -4,7 +4,7 @@ $(function(){
     // 1ere methode 2 événements pour retouver la taille initiale
 // $("#img1").on ({
 //     mouseenter: function(){$(this).width(500);},
-//     mouseleave: function () {$(this).width(200);},
+//     mouseleave: function () {$(this).width(auto);},
 // })
 // });
 
